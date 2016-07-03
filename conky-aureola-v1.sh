@@ -115,7 +115,7 @@ cp -r /tmp/aureola/* ~/.aureola
 cp ~/.aureola/sys-info-mono-willemo/* ~/.config/conky
 
 # making sure conky is started at boot
-cp start-conky.desktop ~/.config/autostart/start-conky.desktop
+cp ~/.aureola/sys-info-mono-willemo/start-conky.desktop ~/.config/autostart/start-conky.desktop
 
 killall  conky
 
