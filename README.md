@@ -254,6 +254,13 @@ screenshot_25_01_2016_18:32:46.jpg
 
 
 
+# Gnome tweak and compiz configuration
+
+
+These two programs will assist you in pimping your working environment the way you want.
+
+Be careful though with the compiz configuration manager.
+
 
 #What can you do if the script does not execute?
 
