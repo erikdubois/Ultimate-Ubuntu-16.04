@@ -22,7 +22,7 @@ using Super Ultra Flat Numix Remix icons from https://github.com/erikdubois/Supe
 
 Your result can be
 
-![Screenshots](http://i.imgur.com/aMrgOna.jpg)
+![Screenshots](http://i.imgur.com/s4uuBVS.jpg)
 
 #1 Kernel and nvidia
 
