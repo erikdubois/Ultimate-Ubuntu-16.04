@@ -71,10 +71,10 @@ sudo apt-get -y update
 echo "downloading google chrome latest stable edition"
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt-get install -y libcurl3
+sudo apt install -y libcurl3
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
-sudo apt-get install -f -y
+sudo apt install -f -y
 
 ############################################################################
 
@@ -91,7 +91,7 @@ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sourc
 sudo apt-get update
 
 # 4. Install Spotify
-sudo apt-get install spotify-client
+sudo apt install spotify-client
 
 ##############################################################################################
 
@@ -106,29 +106,35 @@ rm sublime-text_build-3114_amd64.deb
 
 #software from 'normal' repositories
 echo "software from 'normal' repositories"
-sudo apt-get install -y catfish clementine curl focuswriter frei0r-plugins geary gimp git gpick glances gparted
-sudo apt-get install -y hardinfo inkscape inxi kazam openshot p7zip-full ppa-purge screenruler scrot shutter slurm
-sudo apt-get install -y thunar vnstat winbind screenfetch plank
-sudo apt-get install -y browser-plugin-vlc vlc
-sudo apt-get install -y compizconfig-settings-manager
-
+sudo apt install -y catfish clementine curl focuswriter frei0r-plugins geary gimp git gpick glances gparted
+sudo apt install -y hardinfo inkscape inxi kazam openshot p7zip-full ppa-purge screenruler scrot shutter slurm
+sudo apt install -y thunar vnstat winbind screenfetch plank
+sudo apt install -y browser-plugin-vlc vlc
 
 
 ############################################################################
 
 # installation of zippers and unzippers
 echo "installation of zippers and unzippers"
-sudo apt-get install -y p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
+sudo apt install -y p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
 
 ############################################################################
 
 #software from extra repositories
 echo "software from extra repositories"
-sudo apt-get install -y grub-customizer variety   
+sudo apt install -y grub-customizer variety   
 
 #themes
 echo "themes and icons"
-sudo apt-get install numix-gtk-theme numix-icon-theme-circle -y 
+sudo apt install  -y numix-gtk-theme numix-icon-theme-circle  
+
+############################################################################
+
+#software operating system specific
+
+sudo apt install -y gnome-tweak-tool compizconfig-settings-manager  
+
+
 
 ############################################################################
 
