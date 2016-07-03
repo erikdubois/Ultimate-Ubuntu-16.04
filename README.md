@@ -1,4 +1,6 @@
-# Ultimate Ubuntu Mate 16.04
+# Ultimate Ubuntu 16.04
+
+WORK IN PROGRES
 
 We start our journey with a clean install.
 
