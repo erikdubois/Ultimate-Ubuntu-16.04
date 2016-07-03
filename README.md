@@ -79,7 +79,7 @@ Some examples of the kernel test.
 
 # kernel 4.6
 
-![Screenshots](http://i.imgur.com/wlua4w6.jpg)
+![Screenshots](http://i.imgur.com/I7YyucM.jpg)
 
 
 
@@ -137,10 +137,7 @@ Start up conky-manager and choose the conky to your liking.
 You should arrive at something similar depending on theme and icons choices: 
 
 
-![Screenshots](http://i.imgur.com/L3yiWx3.jpg)
-
-
-![Screenshots](http://i.imgur.com/KvPEQXN.jpg)
+![Screenshots](http://i.imgur.com/pgbXtOr.jpg)
 
 
 
@@ -157,6 +154,11 @@ Conky has changed its configuration to lua syntax.
 This will my place to collect them all.
 
 https://github.com/erikdubois/Aureola
+
+
+![Screenshots](http://i.imgur.com/vwIB1hs.jpg)
+
+
 
 #5 ZSH and Oh-my-sh
 -----------------------
@@ -184,6 +186,8 @@ Each time you start an other terminal you will get a different theme. It will su
 
 Plank
 ------------------
+
+Plank is NOT implemented here since we have the launcher.
 
 Not sure but I believe Plank was already installed in Ubuntu Mate.
 
