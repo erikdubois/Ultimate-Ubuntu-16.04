@@ -62,6 +62,7 @@ sh install-all-needed-software-at-once-latest.sh
 sh install-numix-latest.sh
 sh install-zsh-latest.sh
 sh hardcodefixer-latest.sh
+sh theme-arc-dark-install.sh
 sh update-to-the-last-stable-4.6.3-kernel-v2.sh
 
 
