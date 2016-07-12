@@ -158,6 +158,8 @@ https://github.com/erikdubois/Aureola
 
 ![Screenshots](http://i.imgur.com/vwIB1hs.jpg)
 
+![Screenshots](http://i.imgur.com/LH6oerv.jpg)
+
 
 
 #5 ZSH and Oh-my-sh
