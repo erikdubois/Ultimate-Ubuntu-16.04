@@ -81,10 +81,12 @@
 # S A R D I
 # from sourceforge 
 
-wget -O /tmp/sardi.tar.gz "https://sourceforge.net/projects/sardi/files/latest/download?source=files"
-mkdir /tmp/sardi
-tar -zxvf /tmp/sardi.tar.gz -C /tmp/sardi
-rm /tmp/sardi.tar.gz
+version="6.1-2"
+
+wget http://downloads.sourceforge.net/project/sardi/sardi-icons-$version.tar.gz -P /tmp/sardi
+cd /tmp/sardi
+tar -zxvf /tmp/sardi/sardi-icons-$version.tar.gz
+rm /tmp/sardi/sardi-icons-$version.tar.gz
 
 # if there is no hidden folder conky then make one
 [ -d $HOME"/./icons" ] || mkdir -p $HOME"/.icons"
