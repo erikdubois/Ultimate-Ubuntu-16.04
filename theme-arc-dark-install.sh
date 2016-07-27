@@ -81,7 +81,7 @@ git clone https://github.com/horst3180/arc-theme --depth 1 && cd arc-theme
 sudo make install
 
 # sudo rm -rf /usr/share/themes/{Arc,Arc-Darker,Arc-Dark}
-
+rm -rf arc-theme
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"
