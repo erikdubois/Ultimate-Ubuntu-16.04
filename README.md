@@ -11,6 +11,8 @@ Some icons we like ...
 
 Using Sardi icons from  http://sourceforge.net/projects/sardi/
 
+[img]http://i.imgur.com/J5OZveg.jpg[/img]
+
 or 
 
 using yltra flat icons from https://github.com/erikdubois/yltra-flat-icon-theme
