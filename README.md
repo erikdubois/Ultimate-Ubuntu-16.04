@@ -11,7 +11,7 @@ Some icons we like ...
 
 Using Sardi icons from  http://sourceforge.net/projects/sardi/
 
-[img]http://i.imgur.com/J5OZveg.jpg[/img]
+![Screenshots](http://i.imgur.com/J5OZveg.jpg)
 
 or 
 
