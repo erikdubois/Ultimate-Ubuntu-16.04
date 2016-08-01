@@ -107,7 +107,23 @@ The best of them
 Or you choose to install the ones you want one by one.
 
 
-#3 Aurora Conky
+
+
+#3 Aureola conky
+
+Conky has changed its configuration to lua syntax.
+This will my place to collect them all.
+
+https://github.com/erikdubois/Aureola
+
+
+![Screenshots](http://i.imgur.com/vwIB1hs.jpg)
+
+![Screenshots](http://i.imgur.com/LH6oerv.jpg)
+
+
+
+#4 Aurora Conky
 ------------------------
 	
 
@@ -147,18 +163,6 @@ This script is explained more in depth on my website.
 
 http://erikdubois.be/
 
-
-#4 Aureola conky
-
-Conky has changed its configuration to lua syntax.
-This will my place to collect them all.
-
-https://github.com/erikdubois/Aureola
-
-
-![Screenshots](http://i.imgur.com/vwIB1hs.jpg)
-
-![Screenshots](http://i.imgur.com/LH6oerv.jpg)
 
 
 
