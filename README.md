@@ -1,6 +1,5 @@
 # Ultimate Ubuntu 16.04
 
-WORK IN PROGRES
 
 We start our journey with a clean install.
 
@@ -12,6 +11,8 @@ Some icons we like ...
 Using Sardi icons from  http://sourceforge.net/projects/sardi/
 
 ![Screenshots](http://i.imgur.com/J5OZveg.jpg)
+
+![Screenshots](http://i.imgur.com/ovJQJf2.jpg)
 
 or 
 
