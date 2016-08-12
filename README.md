@@ -16,6 +16,8 @@ Using Sardi icons from  http://sourceforge.net/projects/sardi/
 
 ![Screenshots](http://i.imgur.com/C0flEN3.jpg)
 
+![Screenshots](http://i.imgur.com/57lJNsX.png)
+
 or 
 
 using yltra flat icons from https://github.com/erikdubois/yltra-flat-icon-theme
