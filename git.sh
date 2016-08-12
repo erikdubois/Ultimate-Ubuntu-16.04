@@ -43,7 +43,7 @@ read input
 
 # Committing to the local repository with a message containing the time details and commit text
 curtime=$(date)
-git commit -m "$input"
+git commit -m "Comment: $input"
 
 # Push the local snapshot to a remote destination
 git push -u origin master
