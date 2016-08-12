@@ -29,6 +29,30 @@ Your result can be
 
 ![Screenshots](http://i.imgur.com/s4uuBVS.jpg)
 
+
+# First steps
+
+Getting these scripts on my just installed system.
+
+	sudo apt-get install git
+	git clone https://github.com/erikdubois/Ultimate-Ubuntu-16.04.git
+
+Go inside the folder and start to install all you need or want.
+
+
+Two screens 
+
+I do not like the toolbar on the second monitor and the mouse sticks there... 
+
+
+
+![Screenshots](http://i.imgur.com/QaXziwv.png)
+
+
+Do the regular updates first. Start the software-updater.
+
+
+
 #1 Kernel and nvidia
 
 As described at http://erikdubois.be/ I try to get the latest of everything but on a testpc first mind you! This attitude tends to break things. You have been warned. But the best way to learn about linux.
