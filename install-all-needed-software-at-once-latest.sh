@@ -106,9 +106,11 @@ rm sublime-text_build-3114_amd64.deb
 #software from 'normal' repositories
 echo "software from 'normal' repositories"
 sudo apt install -y catfish clementine curl evolution focuswriter frei0r-plugins geary gimp git gpick glances gparted
-sudo apt install -y hardinfo inkscape inxi kazam openshot p7zip-full ppa-purge screenruler scrot shutter slurm
+sudo apt install -y hardinfo inkscape inxi kazam openshot p7zip-full ppa-purge radiotray screenruler scrot shutter slurm
 sudo apt install -y thunar vnstat winbind screenfetch plank
 sudo apt install -y browser-plugin-vlc vlc
+
+sudo apt install breeze-cursor-theme -y
 
 
 ############################################################################
