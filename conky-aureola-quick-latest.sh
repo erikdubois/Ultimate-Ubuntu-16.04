@@ -1,75 +1,56 @@
-#!/bin/bash
+#!/bin/bash 
+############################################################################
 #
 #                                       
-# MMMMMMMMMMMMMMMMMMMMMMMMMmds+.        
-# MMm----::-://////////////oymNMd+`     
-# MMd      /++                -sNMd:    
-# MMNso/`  dMM    `.::-. .-::.` .hMN:   
-# ddddMMh  dMM   :hNMNMNhNMNMNh: `NMm   
-#     NMm  dMM  .NMN/-+MMM+-/NMN` dMM   
-#     NMm  dMM  -MMm  `MMM   dMM. dMM   
-#     NMm  dMM  -MMm  `MMM   dMM. dMM   
-#     NMm  dMM  .mmd  `mmm   yMM. dMM   
-#     NMm  dMM`  ..`   ...   ydm. dMM   
-#     hMM- +MMd/-------...-:sdds  dMM   
-#     -NMm- :hNMNNNmdddddddddy/`  dMM   
-#      -dMNs-``-::::-------.``    dMM   
-#       `/dMNmy+/:-------------:/yMMM  
-#          ./ydNMMMMMMMMMMMMMMMMMMMMM  
-#             \.MMMMMMMMMMMMMMMMMMM    
-#                                      
+#                          ./+o+-       
+#                  yyyyy- -yyyyyy+      
+#               ://+//////-yyyyyyo      
+#           .++ .:/++++++/-.+sss/`      
+#         .:++o:  /++++++++/:--:/-      
+#        o:+o+:++.`..```.-/oo+++++/     
+#       .:+o:+o/.          `+sssoo+/    
+#  .++/+:+oo+o:`             /sssooo.   
+# /+++//+:`oo+o               /::--:.   
+# \+/+o+++`o++o               ++////.   
+#  .++.o+++oo+:`             /dddhhh.   
+#       .+.o+oo:.          `oddhhhh+    
+#        \+.++o+o``-````.:ohdhhhhh+     
+#         `:o+++ `ohhhhhhhhyo++os:      
+#           .o:`.syhhhhhhh/.oo++o`      
+#               /osyyyyyyo++ooo+++/     
+#                   ````` +oo+++o\:    
+#                          `oo++.      
+#                                
 #
 #
-##################################################################################################################
-#
-# Current project : Conky aureola
-#
-# Source 	: 	https://github.com/erikdubois/Aureola
-#
-##################################################################################################################
-# Written to be used on 64 bits computers
+############################################################################
 # Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
-##################################################################################################################
-# 
+############################################################################
 # More from Erik Dubois
 #
-# Aurora Conky
+# Aurora conky and all its components are installed via an other script
 # at http://sourceforge.net/projects/auroraconkytheme/
 # Explanation on the use of this theme can be found at 
-# http://erikdubois.be/category/linux/aurora-conky/
-# 
-# Aureola Conky
-# Collections of nice conky's with lua syntax
-# https://github.com/erikdubois/Aureola
+# http://erikdubois.be/
 #
-# Sardi icons
-# Many different styles of icons from colourfull, monochrome, white, circle
-# https://sourceforge.net/projects/sardi/
+# Sardi icons can be found at
+# http://sourceforge.net/projects/sardi/
 #
-# Super Ultra Flat Numix Remix
-# Colourfull and playfull icons
-# https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix
+# Yltra flat icons can be found at 
+# https://github.com/erikdubois/yltra-flat-icon-theme
+############################################################################
 #
-# Check out the github - many more scripts for automatic installation of Linux Systems.
+# the option -y has been added. It will autoinstall all. Omit if you do not want that.
 #
-#
-#
-#
-#
-##################################################################################################################
-# If the option -y has been added. It will autoinstall all. Omit if you do not want that.
-##################################################################################################################
-#
-#
-#
-#
-##################################################################################################################
+############################################################################
+
+
+############################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. AT YOUR OWN RISK.
 #
-##################################################################################################################
-
+############################################################################
 
 ########################################
 ########        C O N K Y      #########
