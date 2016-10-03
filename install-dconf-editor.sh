@@ -55,18 +55,13 @@
 ##################################################################################################################
 
 
-rm /tmp/sublime-text_build-3126_amd64.deb
+# changing settings of cinnamon that are well hidden
 
-wget https://download.sublimetext.com/sublime-text_build-3126_amd64.deb -O /tmp/sublime-text_build-3126_amd64.deb
-sudo dpkg -i /tmp/sublime-text_build-3126_amd64.deb
-
-rm /tmp/sublime-text_build-3126_amd64.deb
+sudo apt-get install dconf-editor dconf-cli -y
 
 
 ##################################################################################################################
 
-echo "################################################################"
-echo "###################    T H E   E N D      ######################"
-echo "################################################################"
+#ending
 
 

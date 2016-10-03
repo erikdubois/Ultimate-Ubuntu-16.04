@@ -54,19 +54,21 @@
 #
 ##################################################################################################################
 
+#https://github.com/horst3180/arc-theme
 
-rm /tmp/sublime-text_build-3126_amd64.deb
+rm -rf /tmp/arc-theme
 
-wget https://download.sublimetext.com/sublime-text_build-3126_amd64.deb -O /tmp/sublime-text_build-3126_amd64.deb
-sudo dpkg -i /tmp/sublime-text_build-3126_amd64.deb
+sudo apt-get install build-essential autoconf automake pkg-config libgtk-3.0 libgtk-3-dev -y
+git clone https://github.com/horst3180/arc-theme --depth 1 /tmp/arc-theme
+cd /tmp/arc-theme
+sh autogen.sh --prefix=/usr
+sudo make install
 
-rm /tmp/sublime-text_build-3126_amd64.deb
+rm -rf /tmp/arc-theme
 
+# sudo rm -rf /usr/share/themes/{Arc,Arc-Darker,Arc-Dark}
 
-##################################################################################################################
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"
 echo "################################################################"
-
-

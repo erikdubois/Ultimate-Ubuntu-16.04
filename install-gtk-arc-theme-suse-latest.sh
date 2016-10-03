@@ -54,19 +54,10 @@
 #
 ##################################################################################################################
 
+wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_16.04/Release.key
+sudo apt-key add - < Release.key 
+rm ./Release.key
 
-rm /tmp/sublime-text_build-3126_amd64.deb
-
-wget https://download.sublimetext.com/sublime-text_build-3126_amd64.deb -O /tmp/sublime-text_build-3126_amd64.deb
-sudo dpkg -i /tmp/sublime-text_build-3126_amd64.deb
-
-rm /tmp/sublime-text_build-3126_amd64.deb
-
-
-##################################################################################################################
-
-echo "################################################################"
-echo "###################    T H E   E N D      ######################"
-echo "################################################################"
-
-
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
+sudo apt-get update
+sudo apt-get install arc-theme

@@ -54,19 +54,14 @@
 #
 ##################################################################################################################
 
+# Latest builds of cinnamon and nemo
 
-rm /tmp/sublime-text_build-3126_amd64.deb
+wget https://github.com/phw/peek/releases/download/v0.7.2/peek-0.7.2-Linux.deb
+sudo apt install libsdl1.2debian ffmpeg libavdevice-ffmpeg56 -y
+sudo dpkg -i peek-0.7.2-Linux.deb
+rm peek-0.7.2-Linux.deb
 
-wget https://download.sublimetext.com/sublime-text_build-3126_amd64.deb -O /tmp/sublime-text_build-3126_amd64.deb
-sudo dpkg -i /tmp/sublime-text_build-3126_amd64.deb
-
-rm /tmp/sublime-text_build-3126_amd64.deb
-
-
-##################################################################################################################
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"
 echo "################################################################"
-
-

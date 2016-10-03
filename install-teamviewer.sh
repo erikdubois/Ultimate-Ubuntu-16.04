@@ -54,19 +54,18 @@
 #
 ##################################################################################################################
 
+# Downloading and installing latest teamviewer
 
-rm /tmp/sublime-text_build-3126_amd64.deb
+rm /tmp/teamviewer_i386.deb
 
-wget https://download.sublimetext.com/sublime-text_build-3126_amd64.deb -O /tmp/sublime-text_build-3126_amd64.deb
-sudo dpkg -i /tmp/sublime-text_build-3126_amd64.deb
+wget https://download.teamviewer.com/download/teamviewer_i386.deb -O /tmp/teamviewer_i386.deb
+sudo apt install -y libjpeg62:i386
+sudo dpkg -i /tmp/teamviewer_i386.deb
 
-rm /tmp/sublime-text_build-3126_amd64.deb
+rm /tmp/teamviewer_i386.deb
 
 
-##################################################################################################################
 
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"
 echo "################################################################"
-
-
