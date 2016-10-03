@@ -132,7 +132,9 @@ sudo apt install -y grub-customizer variety
 
 sudo apt install -y gnome-tweak-tool compizconfig-settings-manager  
 
-
+# fixing error gtk-warning-unable-to-locate-theme-engine-in-module-path-adwaita-error
+# making assets mint-y-colora
+sudo apt install gnome-themes-standard -y
 
 ############################################################################
 
