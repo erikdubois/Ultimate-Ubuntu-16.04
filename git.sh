@@ -32,6 +32,21 @@
 #git remote add origin https://github.com/erikdubois/Ultimate-Ubuntu-16.04.git
 #git push -u origin master
 
+
+# checking if kernel files are present otherswise github will become too big
+
+
+if [ -f linux* ]; then
+	echo "#####################################################"
+    echo "Stopping the script!!"
+    echo "Wait for the kernel update script to quit."
+    echo "#####################################################"
+	sleep 3
+    exit 0
+fi
+
+
+
 # Below command will backup everything inside the project folder
 git add --all .
 
